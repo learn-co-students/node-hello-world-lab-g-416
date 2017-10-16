@@ -1,2 +1,6 @@
 var helloWorld = () => "Hello World";
-module.exports = helloWorld;
+if (require.main === module) {
+	console.log(helloWorld());
+} else {
+	module.exports = helloWorld;
+}
