@@ -19,5 +19,9 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "mocha-multi": "^1.0.0",
+    "webpack": "^3.10.0"
   }
 }
