@@ -1,1 +1,5 @@
-module.exports = function() { return "Hello World"};
+var helloWorld = function() {
+  return "Hello World";
+}
+
+module.exports = helloWorld;
