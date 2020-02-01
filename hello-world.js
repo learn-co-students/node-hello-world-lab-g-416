@@ -2,4 +2,4 @@ const helloWorld = () => {
     return "Hello World"
 } 
 
-module.export = helloWorld;
+module.exports = helloWorld;
