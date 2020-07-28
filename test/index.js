@@ -8,3 +8,11 @@ describe('hello-world method in hello-world.js', function () {
     done()
   })
 })
+
+describe('heyWorld method in heyWorld.js', function () {
+  it('must return string "Hey World"', function(done) {
+    var heyWorld = require('../heyWorld')()
+    expect(heyWorld).to.equal('Hey World!')
+    done()
+  })
+})
